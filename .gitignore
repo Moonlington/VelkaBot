@@ -1,7 +1,7 @@
 censor_words.*
 .vscode
 config.yml
-VelkaLog.VelkaLog
+VelkaLog.log
 mailblacklist.json
 launcher.sh
 cogs/__pycache__/
