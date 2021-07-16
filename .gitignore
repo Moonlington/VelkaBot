@@ -1,0 +1,8 @@
+censor_words.*
+.vscode
+config.yml
+VelkaLog.VelkaLog
+mailblacklist.json
+launcher.sh
+cogs/__pycache__/
+utils/__pycache__/

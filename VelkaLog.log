@@ -1,0 +1,842 @@
+Launching Velka...
+loaded cogs
+Velka loaded!
+Launching Velka...
+loaded cogs
+Velka loaded!
+2020-12-26 12:46:24,141:INFO:Velka: Launching Velka...
+2020-12-26 12:46:27,213:INFO:Velka: loaded cogs
+2020-12-26 12:46:27,214:INFO:Velka: Velka loaded!
+2020-12-26 13:18:59,010:INFO:Velka: Launching Velka...
+2020-12-26 13:25:37,523:INFO:Velka: Launching Velka...
+2020-12-26 13:29:02,288:INFO:Velka: Launching Velka...
+2020-12-26 13:31:53,960:INFO:Velka: Launching Velka...
+2020-12-26 13:36:52,059:INFO:Velka: Launching Velka...
+2020-12-26 13:38:28,288:INFO:Velka: Launching Velka...
+2020-12-26 13:38:28,620:INFO:Velka: Launching Velka...
+2020-12-26 13:46:03,415:INFO:Velka: Launching Velka...
+2020-12-26 13:54:27,684:INFO:Velka: Launching Velka...
+2020-12-26 13:55:41,169:INFO:Velka: Launching Velka...
+2020-12-26 13:58:42,333:INFO:Velka: Launching Velka...
+2020-12-26 14:01:24,348:INFO:Velka: Launching Velka...
+2020-12-26 14:01:27,340:INFO:Velka: loaded cogs
+2020-12-26 14:01:27,341:INFO:Velka: Velka loaded!
+2020-12-26 14:03:33,086:INFO:Velka: Launching Velka...
+2020-12-26 14:07:14,330:INFO:Velka: Launching Velka...
+2020-12-26 14:07:17,351:INFO:Velka: loaded cogs
+2020-12-26 14:07:17,351:INFO:Velka: Velka loaded!
+2020-12-26 14:25:17,247:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:25:17,252:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:25:17,259:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:44:25,777:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:44:26,022:ERROR:Velka: Failed to reload cogs!
+2020-12-26 14:44:26,023:ERROR:Velka: Extension 'cogs.modmail' raised an error: NameError: name 'checks' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 607, in _load_from_module_spec
+    spec.loader.exec_module(lib)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/pi/VelkaBot/cogs/modmail.py", line 7, in <module>
+    class ModMailCog(commands.Cog):
+  File "/home/pi/VelkaBot/cogs/modmail.py", line 40, in ModMailCog
+    @commands.check(checks.is_mod)
+NameError: name 'checks' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/VelkaBot/cogs/core.py", line 25, in reload
+    self.bot.reload_extension(f"cogs.{name}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 739, in reload_extension
+    self.load_extension(name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 664, in load_extension
+    self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 610, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.modmail' raised an error: NameError: name 'checks' is not defined
+2020-12-26 14:44:41,008:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:44:41,024:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:44:41,028:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:46:43,282:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:46:43,291:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:46:43,295:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:47:07,209:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:47:07,216:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:47:07,221:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:47:41,248:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:47:41,256:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:47:41,259:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:47:48,287:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:47:48,299:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:47:48,305:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:51:37,566:INFO:Velka: Attempting to reload cog: modmail
+2020-12-26 14:51:37,572:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-26 14:51:37,575:INFO:Velka: Attempting to reload cog: core
+2020-12-26 14:53:01,377:INFO:Velka: Launching Velka...
+2020-12-26 14:53:04,233:INFO:Velka: Attempting to load cog: modmail
+2020-12-26 14:53:04,247:INFO:Velka: Attempting to load cog: profanityfilter
+2020-12-26 14:53:04,301:INFO:Velka: Attempting to load cog: core
+2020-12-26 14:53:04,304:INFO:Velka: loaded cogs
+2020-12-26 14:53:04,304:INFO:Velka: Velka loaded!
+2020-12-26 16:28:55,703:INFO:Velka: Launching Velka...
+2020-12-26 16:28:58,599:INFO:Velka: Attempting to load cog: modmail
+2020-12-26 16:28:58,613:INFO:Velka: Attempting to load cog: profanityfilter
+2020-12-26 16:28:58,663:INFO:Velka: Attempting to load cog: core
+2020-12-26 16:28:58,666:INFO:Velka: loaded cogs
+2020-12-26 16:28:58,667:INFO:Velka: Velka loaded!
+2020-12-29 22:18:17,610:INFO:Velka: Attempting to reload cog: modmail
+2020-12-29 22:18:17,617:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-29 22:18:17,624:INFO:Velka: Attempting to reload cog: core
+2020-12-30 19:42:27,695:INFO:Velka: Attempting to reload cog: modmail
+2020-12-30 19:42:27,698:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-30 19:42:27,701:INFO:Velka: Attempting to reload cog: core
+2020-12-30 19:43:36,639:INFO:Velka: Attempting to reload cog: modmail
+2020-12-30 19:43:36,647:INFO:Velka: Attempting to reload cog: profanityfilter
+2020-12-30 19:43:36,654:INFO:Velka: Attempting to reload cog: core
+2021-01-06 18:56:58,166:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 18:56:58,170:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 18:56:58,407:ERROR:Velka: Failed to reload cogs!
+2021-01-06 18:56:58,407:ERROR:Velka: Extension 'cogs.profanityfilter' raised an error: TypeError: Listener function must be a coroutine function.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 607, in _load_from_module_spec
+    spec.loader.exec_module(lib)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/pi/VelkaBot/cogs/profanityfilter.py", line 10, in <module>
+    class ProfanityFilterCog(commands.Cog):
+  File "/home/pi/VelkaBot/cogs/profanityfilter.py", line 22, in ProfanityFilterCog
+    async def on_message(self, message: discord.Message):
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/cog.py", line 275, in decorator
+    raise TypeError('Listener function must be a coroutine function.')
+TypeError: Listener function must be a coroutine function.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/VelkaBot/cogs/core.py", line 25, in reload
+    self.bot.reload_extension(f"cogs.{name}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 739, in reload_extension
+    self.load_extension(name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 664, in load_extension
+    self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 610, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.profanityfilter' raised an error: TypeError: Listener function must be a coroutine function.
+2021-01-06 18:57:53,439:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 18:57:53,447:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 18:57:53,469:INFO:Velka: Attempting to reload cog: core
+2021-01-06 18:58:56,373:INFO:Velka: Launching Velka...
+2021-01-06 18:58:59,186:INFO:Velka: Attempting to load cog: modmail
+2021-01-06 18:58:59,196:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-06 18:58:59,293:INFO:Velka: Attempting to load cog: core
+2021-01-06 18:58:59,295:INFO:Velka: loaded cogs
+2021-01-06 18:58:59,296:INFO:Velka: Velka loaded!
+2021-01-06 18:59:02,144:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 18:59:02,149:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 18:59:02,154:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:01:25,018:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 19:01:25,022:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 19:01:25,027:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:11:56,431:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 19:11:56,439:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 19:11:56,449:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:13:39,110:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 19:13:39,114:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 19:13:39,120:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:17:05,923:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 19:17:05,931:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 19:17:05,945:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:17:38,074:INFO:Velka: Attempting to reload cog: modmail
+2021-01-06 19:17:38,083:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-06 19:17:38,095:INFO:Velka: Attempting to reload cog: core
+2021-01-06 19:20:10,770:INFO:Velka: Launching Velka...
+2021-01-06 19:20:13,640:INFO:Velka: Attempting to load cog: modmail
+2021-01-06 19:20:13,648:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-06 19:20:13,710:INFO:Velka: Attempting to load cog: core
+2021-01-06 19:20:13,712:INFO:Velka: loaded cogs
+2021-01-06 19:20:13,713:INFO:Velka: Velka loaded!
+2021-01-08 10:22:40,408:INFO:Velka: Attempting to load cog: modmail
+2021-01-08 10:22:40,408:ERROR:Velka: Failed to load cog: modmail
+2021-01-08 10:22:40,409:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-01-08 10:22:40,418:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-08 10:22:40,418:ERROR:Velka: Failed to load cog: profanityfilter
+2021-01-08 10:22:40,419:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-01-08 10:22:40,420:INFO:Velka: Attempting to load cog: core
+2021-01-08 10:22:40,420:ERROR:Velka: Failed to load cog: core
+2021-01-08 10:22:40,420:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-01-08 10:22:40,421:INFO:Velka: loaded cogs
+2021-01-08 10:22:40,422:INFO:Velka: Velka loaded!
+2021-01-09 09:31:31,231:INFO:Velka: Attempting to reload cog: modmail
+2021-01-09 09:31:31,238:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-09 09:31:31,245:INFO:Velka: Attempting to reload cog: core
+2021-01-12 03:23:21,164:INFO:Velka: Attempting to load cog: modmail
+2021-01-12 03:23:21,164:ERROR:Velka: Failed to load cog: modmail
+2021-01-12 03:23:21,165:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-01-12 03:23:21,166:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-12 03:23:21,166:ERROR:Velka: Failed to load cog: profanityfilter
+2021-01-12 03:23:21,166:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-01-12 03:23:21,167:INFO:Velka: Attempting to load cog: core
+2021-01-12 03:23:21,167:ERROR:Velka: Failed to load cog: core
+2021-01-12 03:23:21,167:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-01-12 03:23:21,168:INFO:Velka: loaded cogs
+2021-01-12 03:23:21,170:INFO:Velka: Velka loaded!
+2021-01-16 12:13:09,846:INFO:Velka: Attempting to reload cog: modmail
+2021-01-16 12:13:09,850:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-16 12:13:09,853:INFO:Velka: Attempting to reload cog: core
+2021-01-19 16:09:17,880:INFO:Velka: Attempting to reload cog: modmail
+2021-01-19 16:09:17,887:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-19 16:09:17,907:INFO:Velka: Attempting to reload cog: core
+2021-01-19 16:11:31,160:INFO:Velka: Attempting to reload cog: modmail
+2021-01-19 16:11:31,167:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-01-19 16:11:31,174:INFO:Velka: Attempting to reload cog: core
+2021-01-26 15:19:57,831:INFO:Velka: Launching Velka...
+2021-01-26 15:20:00,803:INFO:Velka: Attempting to load cog: modmail
+2021-01-26 15:20:00,824:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-26 15:20:00,908:INFO:Velka: Attempting to load cog: core
+2021-01-26 15:20:00,911:INFO:Velka: loaded cogs
+2021-01-26 15:20:00,912:INFO:Velka: Velka loaded!
+2021-01-26 15:22:56,615:INFO:Velka: Launching Velka...
+2021-01-26 15:22:59,565:INFO:Velka: Attempting to load cog: modmail
+2021-01-26 15:22:59,583:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-26 15:22:59,650:INFO:Velka: Attempting to load cog: core
+2021-01-26 15:22:59,652:INFO:Velka: loaded cogs
+2021-01-26 15:22:59,653:INFO:Velka: Velka loaded!
+2021-01-28 18:14:49,487:INFO:Velka: Attempting to load cog: modmail
+2021-01-28 18:14:49,488:ERROR:Velka: Failed to load cog: modmail
+2021-01-28 18:14:49,488:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-01-28 18:14:49,497:INFO:Velka: Attempting to load cog: profanityfilter
+2021-01-28 18:14:49,498:ERROR:Velka: Failed to load cog: profanityfilter
+2021-01-28 18:14:49,498:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-01-28 18:14:49,499:INFO:Velka: Attempting to load cog: core
+2021-01-28 18:14:49,499:ERROR:Velka: Failed to load cog: core
+2021-01-28 18:14:49,499:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-01-28 18:14:49,500:INFO:Velka: loaded cogs
+2021-01-28 18:14:49,501:INFO:Velka: Velka loaded!
+2021-02-02 05:42:15,856:INFO:Velka: Attempting to load cog: modmail
+2021-02-02 05:42:15,857:ERROR:Velka: Failed to load cog: modmail
+2021-02-02 05:42:15,857:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-02-02 05:42:15,858:INFO:Velka: Attempting to load cog: profanityfilter
+2021-02-02 05:42:15,858:ERROR:Velka: Failed to load cog: profanityfilter
+2021-02-02 05:42:15,859:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-02-02 05:42:15,859:INFO:Velka: Attempting to load cog: core
+2021-02-02 05:42:15,860:ERROR:Velka: Failed to load cog: core
+2021-02-02 05:42:15,860:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-02-02 05:42:15,861:INFO:Velka: loaded cogs
+2021-02-02 05:42:15,862:INFO:Velka: Velka loaded!
+2021-02-05 03:15:04,153:INFO:Velka: Attempting to load cog: modmail
+2021-02-05 03:15:04,154:ERROR:Velka: Failed to load cog: modmail
+2021-02-05 03:15:04,154:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-02-05 03:15:04,155:INFO:Velka: Attempting to load cog: profanityfilter
+2021-02-05 03:15:04,155:ERROR:Velka: Failed to load cog: profanityfilter
+2021-02-05 03:15:04,156:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-02-05 03:15:04,156:INFO:Velka: Attempting to load cog: core
+2021-02-05 03:15:04,157:ERROR:Velka: Failed to load cog: core
+2021-02-05 03:15:04,157:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-02-05 03:15:04,158:INFO:Velka: loaded cogs
+2021-02-05 03:15:04,159:INFO:Velka: Velka loaded!
+2021-02-19 06:01:54,669:INFO:Velka: Attempting to load cog: modmail
+2021-02-19 06:01:54,669:ERROR:Velka: Failed to load cog: modmail
+2021-02-19 06:01:54,670:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-02-19 06:01:54,670:INFO:Velka: Attempting to load cog: profanityfilter
+2021-02-19 06:01:54,671:ERROR:Velka: Failed to load cog: profanityfilter
+2021-02-19 06:01:54,671:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-02-19 06:01:54,672:INFO:Velka: Attempting to load cog: core
+2021-02-19 06:01:54,672:ERROR:Velka: Failed to load cog: core
+2021-02-19 06:01:54,672:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-02-19 06:01:54,673:INFO:Velka: loaded cogs
+2021-02-19 06:01:54,674:INFO:Velka: Velka loaded!
+2021-02-25 09:19:18,452:INFO:Velka: Attempting to load cog: modmail
+2021-02-25 09:19:18,452:ERROR:Velka: Failed to load cog: modmail
+2021-02-25 09:19:18,453:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-02-25 09:19:18,454:INFO:Velka: Attempting to load cog: profanityfilter
+2021-02-25 09:19:18,454:ERROR:Velka: Failed to load cog: profanityfilter
+2021-02-25 09:19:18,454:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-02-25 09:19:18,455:INFO:Velka: Attempting to load cog: core
+2021-02-25 09:19:18,455:ERROR:Velka: Failed to load cog: core
+2021-02-25 09:19:18,456:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-02-25 09:19:18,456:INFO:Velka: loaded cogs
+2021-02-25 09:19:18,458:INFO:Velka: Velka loaded!
+2021-02-26 03:29:01,073:INFO:Velka: Attempting to load cog: modmail
+2021-02-26 03:29:01,074:ERROR:Velka: Failed to load cog: modmail
+2021-02-26 03:29:01,074:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-02-26 03:29:01,075:INFO:Velka: Attempting to load cog: profanityfilter
+2021-02-26 03:29:01,075:ERROR:Velka: Failed to load cog: profanityfilter
+2021-02-26 03:29:01,076:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-02-26 03:29:01,077:INFO:Velka: Attempting to load cog: core
+2021-02-26 03:29:01,077:ERROR:Velka: Failed to load cog: core
+2021-02-26 03:29:01,077:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-02-26 03:29:01,078:INFO:Velka: loaded cogs
+2021-02-26 03:29:01,079:INFO:Velka: Velka loaded!
+2021-03-01 10:27:20,434:INFO:Velka: Attempting to load cog: modmail
+2021-03-01 10:27:20,435:ERROR:Velka: Failed to load cog: modmail
+2021-03-01 10:27:20,435:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-03-01 10:27:20,436:INFO:Velka: Attempting to load cog: profanityfilter
+2021-03-01 10:27:20,436:ERROR:Velka: Failed to load cog: profanityfilter
+2021-03-01 10:27:20,437:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-03-01 10:27:20,437:INFO:Velka: Attempting to load cog: core
+2021-03-01 10:27:20,438:ERROR:Velka: Failed to load cog: core
+2021-03-01 10:27:20,438:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-03-01 10:27:20,439:INFO:Velka: loaded cogs
+2021-03-01 10:27:20,440:INFO:Velka: Velka loaded!
+2021-03-11 20:09:23,200:INFO:Velka: Attempting to load cog: modmail
+2021-03-11 20:09:23,201:ERROR:Velka: Failed to load cog: modmail
+2021-03-11 20:09:23,201:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-03-11 20:09:23,202:INFO:Velka: Attempting to load cog: profanityfilter
+2021-03-11 20:09:23,203:ERROR:Velka: Failed to load cog: profanityfilter
+2021-03-11 20:09:23,203:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-03-11 20:09:23,204:INFO:Velka: Attempting to load cog: core
+2021-03-11 20:09:23,204:ERROR:Velka: Failed to load cog: core
+2021-03-11 20:09:23,204:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-03-11 20:09:23,205:INFO:Velka: loaded cogs
+2021-03-11 20:09:23,206:INFO:Velka: Velka loaded!
+2021-03-20 10:11:57,236:INFO:Velka: Attempting to load cog: modmail
+2021-03-20 10:11:57,237:ERROR:Velka: Failed to load cog: modmail
+2021-03-20 10:11:57,237:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-03-20 10:11:57,238:INFO:Velka: Attempting to load cog: profanityfilter
+2021-03-20 10:11:57,238:ERROR:Velka: Failed to load cog: profanityfilter
+2021-03-20 10:11:57,239:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-03-20 10:11:57,239:INFO:Velka: Attempting to load cog: core
+2021-03-20 10:11:57,240:ERROR:Velka: Failed to load cog: core
+2021-03-20 10:11:57,240:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-03-20 10:11:57,241:INFO:Velka: loaded cogs
+2021-03-20 10:11:57,242:INFO:Velka: Velka loaded!
+2021-03-26 12:35:15,632:INFO:Velka: Attempting to load cog: modmail
+2021-03-26 12:35:15,633:ERROR:Velka: Failed to load cog: modmail
+2021-03-26 12:35:15,633:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-03-26 12:35:15,634:INFO:Velka: Attempting to load cog: profanityfilter
+2021-03-26 12:35:15,634:ERROR:Velka: Failed to load cog: profanityfilter
+2021-03-26 12:35:15,635:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-03-26 12:35:15,635:INFO:Velka: Attempting to load cog: core
+2021-03-26 12:35:15,636:ERROR:Velka: Failed to load cog: core
+2021-03-26 12:35:15,636:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-03-26 12:35:15,637:INFO:Velka: loaded cogs
+2021-03-26 12:35:15,638:INFO:Velka: Velka loaded!
+2021-04-08 09:05:24,194:INFO:Velka: Attempting to load cog: modmail
+2021-04-08 09:05:24,195:ERROR:Velka: Failed to load cog: modmail
+2021-04-08 09:05:24,195:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-04-08 09:05:24,196:INFO:Velka: Attempting to load cog: profanityfilter
+2021-04-08 09:05:24,197:ERROR:Velka: Failed to load cog: profanityfilter
+2021-04-08 09:05:24,197:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-04-08 09:05:24,198:INFO:Velka: Attempting to load cog: core
+2021-04-08 09:05:24,198:ERROR:Velka: Failed to load cog: core
+2021-04-08 09:05:24,198:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-04-08 09:05:24,199:INFO:Velka: loaded cogs
+2021-04-08 09:05:24,200:INFO:Velka: Velka loaded!
+2021-04-16 12:56:14,471:INFO:Velka: Launching Velka...
+2021-04-16 12:56:17,361:INFO:Velka: Attempting to load cog: modmail
+2021-04-16 12:56:17,380:INFO:Velka: Attempting to load cog: profanityfilter
+2021-04-16 12:56:17,459:INFO:Velka: Attempting to load cog: core
+2021-04-16 12:56:17,461:INFO:Velka: loaded cogs
+2021-04-16 12:56:17,462:INFO:Velka: Velka loaded!
+2021-04-17 18:15:46,277:INFO:Velka: Attempting to load cog: modmail
+2021-04-17 18:15:46,277:ERROR:Velka: Failed to load cog: modmail
+2021-04-17 18:15:46,278:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-04-17 18:15:46,286:INFO:Velka: Attempting to load cog: profanityfilter
+2021-04-17 18:15:46,286:ERROR:Velka: Failed to load cog: profanityfilter
+2021-04-17 18:15:46,287:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-04-17 18:15:46,287:INFO:Velka: Attempting to load cog: core
+2021-04-17 18:15:46,288:ERROR:Velka: Failed to load cog: core
+2021-04-17 18:15:46,288:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-04-17 18:15:46,289:INFO:Velka: loaded cogs
+2021-04-17 18:15:46,290:INFO:Velka: Velka loaded!
+2021-04-17 22:56:57,460:INFO:Velka: Attempting to load cog: modmail
+2021-04-17 22:56:57,460:ERROR:Velka: Failed to load cog: modmail
+2021-04-17 22:56:57,461:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-04-17 22:56:57,462:INFO:Velka: Attempting to load cog: profanityfilter
+2021-04-17 22:56:57,462:ERROR:Velka: Failed to load cog: profanityfilter
+2021-04-17 22:56:57,462:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-04-17 22:56:57,463:INFO:Velka: Attempting to load cog: core
+2021-04-17 22:56:57,463:ERROR:Velka: Failed to load cog: core
+2021-04-17 22:56:57,464:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-04-17 22:56:57,464:INFO:Velka: loaded cogs
+2021-04-17 22:56:57,466:INFO:Velka: Velka loaded!
+2021-04-26 14:20:07,186:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:20:07,207:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:20:07,242:INFO:Velka: Attempting to reload cog: core
+2021-04-26 14:25:04,842:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:25:04,851:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:25:05,084:ERROR:Velka: Failed to reload cogs!
+2021-04-26 14:25:05,084:ERROR:Velka: Extension 'cogs.profanityfilter' raised an error: SyntaxError: f-string expression part cannot include a backslash (profanityfilter.py, line 140)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 607, in _load_from_module_spec
+    spec.loader.exec_module(lib)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/pi/VelkaBot/cogs/profanityfilter.py", line 140
+    await ctx.send(f"Words that are currently being filtered:\n{'\n'.join(self.censor_words)}")
+                  ^
+SyntaxError: f-string expression part cannot include a backslash
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/VelkaBot/cogs/core.py", line 25, in reload
+    self.bot.reload_extension(f"cogs.{name}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 739, in reload_extension
+    self.load_extension(name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 664, in load_extension
+    self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 610, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.profanityfilter' raised an error: SyntaxError: f-string expression part cannot include a backslash (profanityfilter.py, line 140)
+2021-04-26 14:25:34,167:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:25:34,174:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:25:34,194:INFO:Velka: Attempting to reload cog: core
+2021-04-26 14:26:09,005:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:26:09,012:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:26:09,030:INFO:Velka: Attempting to reload cog: core
+2021-04-26 14:26:24,804:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:26:24,812:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:26:24,830:INFO:Velka: Attempting to reload cog: core
+2021-04-26 14:26:38,670:INFO:Velka: Attempting to reload cog: modmail
+2021-04-26 14:26:38,677:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-04-26 14:26:38,698:INFO:Velka: Attempting to reload cog: core
+2021-05-06 14:53:14,320:INFO:Velka: Launching Velka...
+2021-05-06 14:53:27,314:INFO:Velka: Attempting to load cog: modmail
+2021-05-06 14:53:27,338:INFO:Velka: Attempting to load cog: profanityfilter
+2021-05-06 14:53:27,438:INFO:Velka: Attempting to load cog: core
+2021-05-06 14:53:27,441:INFO:Velka: loaded cogs
+2021-05-06 14:53:27,441:INFO:Velka: Velka loaded!
+2021-06-08 06:19:06,694:INFO:Velka: Attempting to load cog: modmail
+2021-06-08 06:19:06,695:ERROR:Velka: Failed to load cog: modmail
+2021-06-08 06:19:06,695:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-06-08 06:19:06,696:INFO:Velka: Attempting to load cog: profanityfilter
+2021-06-08 06:19:06,697:ERROR:Velka: Failed to load cog: profanityfilter
+2021-06-08 06:19:06,697:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-06-08 06:19:06,698:INFO:Velka: Attempting to load cog: core
+2021-06-08 06:19:06,698:ERROR:Velka: Failed to load cog: core
+2021-06-08 06:19:06,698:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-06-08 06:19:06,699:INFO:Velka: loaded cogs
+2021-06-08 06:19:06,700:INFO:Velka: Velka loaded!
+2021-06-21 10:31:05,478:INFO:Velka: Attempting to load cog: modmail
+2021-06-21 10:31:05,479:ERROR:Velka: Failed to load cog: modmail
+2021-06-21 10:31:05,479:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-06-21 10:31:05,480:INFO:Velka: Attempting to load cog: profanityfilter
+2021-06-21 10:31:05,480:ERROR:Velka: Failed to load cog: profanityfilter
+2021-06-21 10:31:05,481:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-06-21 10:31:05,481:INFO:Velka: Attempting to load cog: core
+2021-06-21 10:31:05,482:ERROR:Velka: Failed to load cog: core
+2021-06-21 10:31:05,482:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-06-21 10:31:05,483:INFO:Velka: loaded cogs
+2021-06-21 10:31:05,484:INFO:Velka: Velka loaded!
+2021-06-24 02:46:04,637:INFO:Velka: Attempting to load cog: modmail
+2021-06-24 02:46:04,638:ERROR:Velka: Failed to load cog: modmail
+2021-06-24 02:46:04,638:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-06-24 02:46:04,639:INFO:Velka: Attempting to load cog: profanityfilter
+2021-06-24 02:46:04,639:ERROR:Velka: Failed to load cog: profanityfilter
+2021-06-24 02:46:04,640:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-06-24 02:46:04,640:INFO:Velka: Attempting to load cog: core
+2021-06-24 02:46:04,641:ERROR:Velka: Failed to load cog: core
+2021-06-24 02:46:04,641:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-06-24 02:46:04,642:INFO:Velka: loaded cogs
+2021-06-24 02:46:04,643:INFO:Velka: Velka loaded!
+2021-06-25 00:37:23,670:INFO:Velka: Attempting to load cog: modmail
+2021-06-25 00:37:23,671:ERROR:Velka: Failed to load cog: modmail
+2021-06-25 00:37:23,671:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-06-25 00:37:23,672:INFO:Velka: Attempting to load cog: profanityfilter
+2021-06-25 00:37:23,672:ERROR:Velka: Failed to load cog: profanityfilter
+2021-06-25 00:37:23,673:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-06-25 00:37:23,673:INFO:Velka: Attempting to load cog: core
+2021-06-25 00:37:23,674:ERROR:Velka: Failed to load cog: core
+2021-06-25 00:37:23,674:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-06-25 00:37:23,675:INFO:Velka: loaded cogs
+2021-06-25 00:37:23,676:INFO:Velka: Velka loaded!
+2021-07-15 13:05:44,501:INFO:Velka: Attempting to load cog: modmail
+2021-07-15 13:05:44,502:ERROR:Velka: Failed to load cog: modmail
+2021-07-15 13:05:44,502:ERROR:Velka: Extension 'cogs.modmail' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.modmail' is already loaded.
+2021-07-15 13:05:44,503:INFO:Velka: Attempting to load cog: profanityfilter
+2021-07-15 13:05:44,503:ERROR:Velka: Failed to load cog: profanityfilter
+2021-07-15 13:05:44,504:ERROR:Velka: Extension 'cogs.profanityfilter' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.profanityfilter' is already loaded.
+2021-07-15 13:05:44,504:INFO:Velka: Attempting to load cog: core
+2021-07-15 13:05:44,505:ERROR:Velka: Failed to load cog: core
+2021-07-15 13:05:44,505:ERROR:Velka: Extension 'cogs.core' is already loaded.
+Traceback (most recent call last):
+  File "main.py", line 32, in load_cogs
+    self.load_extension(f"cogs.{filename}")
+  File "/usr/local/lib/python3.7/dist-packages/discord/ext/commands/bot.py", line 658, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.core' is already loaded.
+2021-07-15 13:05:44,506:INFO:Velka: loaded cogs
+2021-07-15 13:05:44,507:INFO:Velka: Velka loaded!
+2021-07-15 17:50:44,789:INFO:Velka: Launching Velka...
+2021-07-15 22:10:28,522:INFO:Velka: Launching Velka...
+2021-07-15 22:10:31,495:INFO:Velka: Attempting to load cog: modmail
+2021-07-15 22:10:31,517:INFO:Velka: Attempting to load cog: profanityfilter
+2021-07-15 22:10:31,626:INFO:Velka: Attempting to load cog: core
+2021-07-15 22:10:31,629:INFO:Velka: loaded cogs
+2021-07-15 22:10:31,630:INFO:Velka: Velka loaded!
+2021-07-15 22:13:32,725:INFO:Velka: Launching Velka...
+2021-07-15 22:13:35,384:INFO:Velka: Attempting to load cog: modmail
+2021-07-15 22:13:35,392:INFO:Velka: Attempting to load cog: profanityfilter
+2021-07-15 22:13:35,491:INFO:Velka: Attempting to load cog: core
+2021-07-15 22:13:35,494:INFO:Velka: loaded cogs
+2021-07-15 22:13:35,494:INFO:Velka: Velka loaded!
+2021-07-15 22:14:33,187:INFO:Velka: Attempting to reload cog: modmail
+2021-07-15 22:14:33,195:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-07-15 22:14:33,195:INFO:Velka: Attempting to reload cog: modmail
+2021-07-15 22:14:33,203:INFO:Velka: Attempting to reload cog: profanityfilter
+2021-07-15 22:14:33,205:INFO:Velka: Attempting to reload cog: core
+2021-07-15 22:14:33,213:INFO:Velka: Attempting to reload cog: core
+2021-07-15 22:14:58,847:INFO:Velka: Launching Velka...
+2021-07-15 22:20:17,828:INFO:Velka: Launching Velka...
+2021-07-15 22:20:20,573:INFO:Velka: Attempting to load cog: modmail
+2021-07-15 22:20:20,597:INFO:Velka: Attempting to load cog: profanityfilter
+2021-07-15 22:20:20,696:INFO:Velka: Attempting to load cog: core
+2021-07-15 22:20:20,698:INFO:Velka: loaded cogs
+2021-07-15 22:20:20,699:INFO:Velka: Velka loaded!
